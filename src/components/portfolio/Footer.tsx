@@ -12,11 +12,11 @@ export function Footer() {
             className="rounded-full border border-border bg-card p-2 text-muted-foreground hover:text-foreground">
             <Mail size={16} />
           </a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn"
+          <a href="https://www.linkedin.com/in/prashant-swamy/" target="_blank" rel="noreferrer" aria-label="LinkedIn"
             className="rounded-full border border-border bg-card p-2 text-muted-foreground hover:text-foreground">
             <Linkedin size={16} />
           </a>
-          <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub"
+          <a href="https://github.com/Prashant-Swamy" target="_blank" rel="noreferrer" aria-label="GitHub"
             className="rounded-full border border-border bg-card p-2 text-muted-foreground hover:text-foreground">
             <Github size={16} />
           </a>

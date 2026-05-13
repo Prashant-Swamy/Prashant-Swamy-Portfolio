@@ -4,22 +4,20 @@ import jobsImg from "@/assets/project-jobs.jpg";
 
 const projects = [
   {
-    title: "Train Delay Intelligence Dashboard",
+    title: "E-commerce Sales Intelligence Platform",
     image: trainImg,
     description:
-      "Full-stack analytics platform analyzing Indian Railways delay patterns using real-time APIs. Automated Python pipelines collect train running status, stored in PostgreSQL for historical analytics. Interactive dashboards show station-wise trends, monthly insights, and railway zone heatmaps.",
+      "Developed an end-to-end E-commerce Sales Intelligence Platform to analyze customer behavior, sales trends, and business performance using real-world e-commerce data.",
     stack: ["Python", "FastAPI", "PostgreSQL", "SQL", "Chart.js", "Leaflet.js", "JavaScript", "Render", "Vercel"],
-    github: "https://github.com/",
-    demo: "#",
+    github: "https://github.com/Prashant-Swamy/ecommerce-sales-intelligence",
   },
   {
-    title: "India Job Market Skill Tracker",
+    title: "India Train Delay Intelligence Dashboard",
     image: jobsImg,
     description:
-      "Job market analytics platform tracking trending skills, salary insights, and hiring trends across Indian cities. Automated web scraping and data processing pipelines with interactive dashboards and SQL-based analytics.",
+      "Developed a full-stack analytics dashboard to analyze Indian Railways train delay patterns using real-time railway API data. Built automated Python-based data collection pipelines to fetch and store train running status data in PostgreSQL at regular intervals.",
     stack: ["Python", "BeautifulSoup", "FastAPI", "PostgreSQL", "SQL", "Next.js", "Recharts", "JavaScript"],
-    github: "https://github.com/",
-    demo: "#",
+    github: "https://github.com/Prashant-Swamy/train-delay-intelligence",
   },
 ];
 
@@ -74,7 +72,6 @@ export function Projects() {
                     <Github size={15} /> GitHub
                   </a>
                   <a
-                    href={p.demo}
                     target="_blank"
                     rel="noreferrer"
                     className="inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-medium text-primary-foreground"

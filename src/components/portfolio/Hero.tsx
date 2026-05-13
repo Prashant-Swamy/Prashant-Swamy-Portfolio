@@ -1,5 +1,5 @@
 import { Download, Github, Linkedin, FolderOpen, ArrowDown } from "lucide-react";
-import profile from "@/assets/profile.jpg";
+import profile from "@/assets/profile.png";
 
 export function Hero() {
   return (
@@ -52,7 +52,7 @@ export function Hero() {
               <FolderOpen size={16} /> View Projects
             </a>
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/prashant-swamy/"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
@@ -61,7 +61,7 @@ export function Hero() {
               <Linkedin size={18} />
             </a>
             <a
-              href="https://github.com/"
+              href="https://github.com/Prashant-Swamy"
               target="_blank"
               rel="noreferrer"
               aria-label="GitHub"
