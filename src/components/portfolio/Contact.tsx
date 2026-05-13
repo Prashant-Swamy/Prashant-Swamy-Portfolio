@@ -30,7 +30,7 @@ export function Contact() {
               </div>
             </a>
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/prashant-swamy/"
               target="_blank"
               rel="noreferrer"
               className="group flex items-center gap-4 rounded-2xl border border-border bg-card p-5 transition-all hover:-translate-y-0.5 hover:shadow-[var(--shadow-soft)]"
@@ -44,7 +44,7 @@ export function Contact() {
               </div>
             </a>
             <a
-              href="https://github.com/"
+              href="https://github.com/prashant-swamy"
               target="_blank"
               rel="noreferrer"
               className="group flex items-center gap-4 rounded-2xl border border-border bg-card p-5 transition-all hover:-translate-y-0.5 hover:shadow-[var(--shadow-soft)]"
