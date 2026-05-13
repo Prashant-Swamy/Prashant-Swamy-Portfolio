@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { Link } from "@tanstack/react-router";
 import { Moon, Sun, Menu, X } from "lucide-react";
 import { useTheme } from "@/hooks/use-theme";
 
@@ -30,9 +29,9 @@ export function Navbar() {
       }`}
     >
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <Link to="/" className="font-display text-lg font-bold tracking-tight">
-          PS<span className="text-primary">.</span>
-        </Link>
+        <a href="/" className="font-display text-lg font-bold tracking-tight">
+  PS<span className="text-primary">.</span>
+</a>
         <div className="hidden items-center gap-8 md:flex">
           {links.map((l) => (
             <a
